@@ -1,0 +1,30 @@
+.display-cart{
+    width: 150px;
+    margin: 15px 20px;
+    transition: transform 0.2s ease-out;
+}
+
+.display-cart:hover {
+    cursor: pointer;
+    transform: translate(5px, -10px);
+}
+.cart-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.cart-image img {
+    width: 100%;
+    height: auto;
+}
+.Prodcast-Title{
+    color: white;
+    font-size: 0.8rem;
+    margin: 0;
+    white-space: nowrap;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 700;
+}
