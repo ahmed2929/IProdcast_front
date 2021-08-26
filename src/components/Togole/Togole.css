@@ -1,0 +1,17 @@
+.Togole{
+    background: rgb(60, 62, 77);
+    border:0px;
+    border-radius: 50px;
+    width:50px ;
+    height: 25px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+#switch{
+    background: yellow;
+    border-radius: 50%;
+    transition: transform 0.2s ease-out 0s;
+    height: 16px;
+    width: 16px;
+}

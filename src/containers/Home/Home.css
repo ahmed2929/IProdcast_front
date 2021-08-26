@@ -1,0 +1,14 @@
+.Home-parent{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+}
+.Home-header{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 100%;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 20px;
+
+}
