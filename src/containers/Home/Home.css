@@ -5,10 +5,16 @@
 }
 .Home-header{
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 31% auto;
     grid-template-rows: 100%;
     align-items: center;
     padding-top: 45px;
     padding-left: 20px;
 
+}
+.Trending-Prodcasts{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-left:20px ;
+   
 }

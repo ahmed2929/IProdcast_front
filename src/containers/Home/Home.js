@@ -3,6 +3,7 @@ import './Home.css';
 import Search from '../../components/Search/Search';
 import Togole from "../../components/Togole/Togole"
 import DisplayCart from '../../components/DispalyCart/DisplayCart';
+import Trending from '../../components/TrendingProdcasts/Trending';
 const Home= ()=> {
   return (
    <react.Fragment>
@@ -11,7 +12,9 @@ const Home= ()=> {
       <Search />
        <Togole />
       </div>
-     
+     <div className="Trending-Prodcasts">
+    <Trending />
+     </div>
       
        
       
