@@ -1,12 +1,13 @@
 .parent-continer{
 display: grid;
-grid-template-columns: 100px 100px 25px auto;
+grid-template-columns:24% 28% 8% 21% 14%;
 grid-template-rows: auto;
 width: 47%;
 height: 60px;
 background-color:rgb(60, 62, 77);;
 border-radius: 8px;
 margin-left:10px ;
+margin-top:10px;
 }
 
 .cover-img{

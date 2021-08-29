@@ -28,9 +28,11 @@ const SingleEpsoide= ()=> {
           }
         
         />
-        <PlayButton url="https://www.computerhope.com/jargon/m/example.mp3"/>
+       
        
       </div>    
+
+      <PlayButton url="https://www.computerhope.com/jargon/m/example.mp3"/>
 
     </div>
 

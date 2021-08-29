@@ -1,8 +1,8 @@
 .icon-controller {
-    position: absolute;
-    right: 60px;
+   
     transition: all 0.2s ease-out;
     color: white;
+    margin-top: 18px;
 }
 
 .icon-controller:hover {
