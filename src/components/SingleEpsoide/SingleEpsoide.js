@@ -1,10 +1,8 @@
 import react,{useState} from 'react';
 import  './SingleEpsoide.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
+import PlayButton from '../Buttons/PlayButton/PlayButton';
 
 const SingleEpsoide= ()=> {
 
@@ -17,10 +15,26 @@ const SingleEpsoide= ()=> {
     </div>
     <div className="epsoide-name">
         <span>Episode 1</span>
+        <span className="chanel-name">null++</span>
 
         </div>
+        <span className="duration">3.14</span>
+        <div className="Heart-Card">
+          
+        <FontAwesomeIcon
+          icon={faHeart}
+          className={
+            "Heart"
+          }
+        
+        />
+        <PlayButton url="https://www.computerhope.com/jargon/m/example.mp3"/>
+       
+      </div>    
 
     </div>
+
+    
   
   
    </react.Fragment>

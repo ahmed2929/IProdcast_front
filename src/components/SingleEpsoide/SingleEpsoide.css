@@ -1,6 +1,6 @@
 .parent-continer{
 display: grid;
-grid-template-columns: 100px 100px auto;
+grid-template-columns: 100px 100px 25px auto;
 grid-template-rows: auto;
 width: 47%;
 height: 60px;
@@ -26,6 +26,38 @@ margin-left:10px ;
 .epsoide-name{
     color: white;
     font-weight: 700;
-    margin-top: 7px;
+    display: grid;
+    grid-template-rows: 22% 29%;
+    grid-template-columns: auto;
+    margin-top: 10px;
+
    
+}
+
+.chanel-name{
+    color: #ef6a6b;
+    margin-top: 3px;
+}
+
+.Heart-Card{
+    width: 22px;
+    height: 22px;
+    
+    margin-top: 18px;
+    margin-left: 44px;
+}
+.Heart-Card .Heart{
+color: white;
+}
+
+
+.Heart-Card .RedHeart{
+    color: #fd2d47;
+
+}
+
+.duration{
+    color: gray;
+    margin-top: 18px;
+    font-size: smaller;
 }
