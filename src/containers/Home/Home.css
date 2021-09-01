@@ -20,3 +20,15 @@
     margin-left:20px ;
    
 }
+
+@media (min-width: 700px) {
+    .Home-parent{
+        display: grid;
+        grid-template-columns: 30% 80%;
+        grid-template-rows: 9% 35% auto;
+        overflow: hidden;
+        min-width: 376px;
+    }
+    
+    
+}

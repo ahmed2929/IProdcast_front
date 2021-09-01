@@ -15,3 +15,12 @@
     height: 16px;
     width: 16px;
 }
+
+@media (min-width: 700px) {
+    .Togole{
+        margin-left: 70%;
+        margin-right: 10px;
+    }
+    
+    
+}

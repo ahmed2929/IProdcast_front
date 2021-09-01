@@ -62,3 +62,11 @@ color: white;
     margin-top: 18px;
     font-size: smaller;
 }
+
+@media (min-width: 700px) {
+    .parent-continer{
+        width: 80%;
+    }
+    
+    
+}

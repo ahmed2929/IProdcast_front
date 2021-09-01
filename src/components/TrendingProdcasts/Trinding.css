@@ -14,13 +14,15 @@
 .header-carrousel{
     align-self: center;
     color: yellow;
+    margin-left: 67%;
+    margin-right: 10px;
     
 }
 .arrow{
     margin-left: 30px;
 }
 .slider{
-    width: 40%;
+    width: 100%;
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 1;
@@ -37,3 +39,10 @@
    
 }
 
+@media (max-width: 700px) {
+    .header-carrousel{
+        margin-left: 10%;
+    }
+    
+    
+}
