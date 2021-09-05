@@ -1,0 +1,24 @@
+.sidebar-topics{
+    background-color: #2c3856;
+    height: 100%;
+    width: 100%;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    
+}
+.sidebar-topics span{
+    margin-left: 186px;
+    margin-top: 55px;
+    font-weight: bold;
+    width: 72px;
+
+}
+
+@media (max-width: 700px) {
+    .sidebar-topics{
+        display: none;
+        
+    }
+    
+    
+}
